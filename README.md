@@ -1,16 +1,16 @@
 # Modèle-de-scoring
 Construction d'un modèle de scoring pour aider les équipes métiers à accorder un crédit à un client.
 
-# Contexte:
+## Contexte:
 La société financière “Prêt à dépenser” souhaite développer un algorithme de scoring pour aider les chargés clientèles à attribuer ou non un crédit à un client. Pour cela, une transformation des données pertinentes pour le modèle de scoring sera faite sur le jeu de données “application_train.csv “ contenant des informations générales et financières sur le client et sur le crédit.
 
-# Objectif:
+## Objectif:
 Faire une analyse exploratoire d'un jeu de données et constuire un modèle de scoring à partir de jeu de données:
 
-# Données
+## Données
 [Lien de l'adresse du jeu de données](https://github.com/CactusDeMexico/Portfolio/blob/master/Openclassrooms_IA/Projet_4/README.md#lentra%C3%AEnement-dun-mod%C3%A8le-supervis%C3%A9-classique-r%C3%A9pondant-%C3%A0-la-probl%C3%A9matique-m%C3%A9tier-est-pertinente-si-:~:text=%F0%9F%93%84%20Dataset-,olist,-%F0%9F%93%88%20Comp%C3%A9tences%20%C3%A9valu%C3%A9es)
 
-# Plan:
+## Plan:
 
 #### Analyse de données et nettoyage des données - <i>Transformer les variables pertinentes pour un modèle supervisé classique (= feature engineering)
 >- analyse exploratoire sur les variables initiales
@@ -36,7 +36,7 @@ Faire une analyse exploratoire d'un jeu de données et constuire un modèle de s
  >-  Explication du choix de la métrique d'évalutation
  >-  Hyperparametres optimisés (max_depth, learning_rate, n_estimators : RandomForest/ GradientBoosting) avec GridSearch / Validation croisée
 
- #### Librairies Python:
+ ## Librairies Python:
  >- Pandas
  >- Matplotlib
 > - Spicy
